@@ -74,4 +74,10 @@
 
 如有问题可发邮件至iOS_wpf@163.com、ioswpf@gmail.com，或新浪微博私信@弯弯月儿变鸟飞
 
+# 其他
+1.[直接演示微信支付]<https://github.com/gbammc/WechatPayDemo></p>
+2.[银联支付]<http://www.jianshu.com/p/92d615f78509?plg_nld=1&plg_uin=1&plg_auth=1&plg_nld=1&plg_usr=1&plg_vkey=1&plg_dev=1></p>
+3.[应用内支付]<https://github.com/robotmedia/RMStore></p>
+3.[应用内支付]<https://github.com/MugunthKumar/MKStoreKit>
+
 
