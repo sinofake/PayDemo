@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0033AB771C47B8460065A42C /* AlipayOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0033AB761C47B8460065A42C /* AlipayOrder.m */; };
 		E31F62E11C3415F300E8FC8A /* AppMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = E31F62DE1C3415F300E8FC8A /* AppMethod.m */; };
 		E31F63621C34186F00E8FC8A /* AlipayHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E31F62E51C34186F00E8FC8A /* AlipayHelper.m */; };
 		E31F63631C34186F00E8FC8A /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E31F62E61C34186F00E8FC8A /* AlipaySDK.bundle */; };
@@ -71,6 +72,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0033AB751C47B8460065A42C /* AlipayOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlipayOrder.h; sourceTree = "<group>"; };
+		0033AB761C47B8460065A42C /* AlipayOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlipayOrder.m; sourceTree = "<group>"; };
 		0B239AAE1F522578DAEA1722 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A49BF58D4C4F12D807065F2C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E31F62DB1C34139A00E8FC8A /* PayDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PayDemo-Prefix.pch"; sourceTree = "<group>"; };
@@ -337,6 +340,8 @@
 				E31F62EA1C34186F00E8FC8A /* openssl */,
 				E31F63361C34186F00E8FC8A /* Order.h */,
 				E31F63371C34186F00E8FC8A /* Order.m */,
+				0033AB751C47B8460065A42C /* AlipayOrder.h */,
+				0033AB761C47B8460065A42C /* AlipayOrder.m */,
 				E31F63381C34186F00E8FC8A /* Util */,
 			);
 			path = AlipaySDK;
@@ -747,6 +752,7 @@
 				E31F63711C34186F00E8FC8A /* NSString+JSONCategoriesString.m in Sources */,
 				E31F63671C34186F00E8FC8A /* Order.m in Sources */,
 				E31F63731C34186F00E8FC8A /* GetMessageFromWXResp+responseWithTextOrMediaMessage.m in Sources */,
+				0033AB771C47B8460065A42C /* AlipayOrder.m in Sources */,
 				E31F63691C34186F00E8FC8A /* DataSigner.m in Sources */,
 				E31F636C1C34186F00E8FC8A /* NSDataEx.m in Sources */,
 				E31F62E11C3415F300E8FC8A /* AppMethod.m in Sources */,

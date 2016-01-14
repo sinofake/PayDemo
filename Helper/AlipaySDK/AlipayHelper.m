@@ -9,6 +9,7 @@
 #import "AlipayHelper.h"
 #import "Order.h"
 #import "DataSigner.h"
+#import "AlipayOrder.h"
 
 @implementation Product
 
@@ -59,7 +60,8 @@
      *生成订单信息及签名
      */
     //将商品信息赋予AlixPayOrder的成员变量
-    Order *order = [[Order alloc] init];
+    //Order *order = [[Order alloc] init];
+    AlipayOrder *order = [[AlipayOrder alloc] init];
     order.partner = partner;
     order.seller = seller;
     order.tradeNO = product.orderId; //订单ID（由商家自行制定）
@@ -72,7 +74,8 @@
     order.paymentType = @"1";
     order.inputCharset = @"utf-8";
     order.itBPay = @"30m";
-    order.showUrl = @"m.alipay.com";
+    //order.showUrl = @"m.alipay.com";
+    
     
     //应用注册scheme,在AlixPayDemo-Info.plist定义URL types
     NSString *appScheme = @"alipayPayDemo";

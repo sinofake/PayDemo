@@ -89,6 +89,7 @@
     // 转化成XML格式 引用三方框架XMLDictionary
     NSString *postStr = [params XMLString];
     
+    //https://pay.weixin.qq.com/wiki/doc/api/app.php?chapter=9_1
     // 调用微信"统一下单"API
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"https://api.mch.weixin.qq.com/pay/unifiedorder"]];
     [request setHTTPMethod:@"POST"];
